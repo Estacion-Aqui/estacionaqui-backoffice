@@ -31,8 +31,20 @@ import {
 } from "reactstrap";
 // core components
 import UserHeader from "components/Headers/UserHeader.js";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Profile = () => {
+  const MySwal = withReactContent(Swal);
+  function saveRecord(){
+    MySwal.fire({
+      icon: "success",
+      title: "Sucesso!!",
+      text: "Registro inserido com sucesso!",
+    }).then(() => {
+      return true;
+    });
+  }
   return (
     <>
       <UserHeader />
@@ -120,7 +132,7 @@ const Profile = () => {
                         <Button
                           color="primary"
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          onClick={(e) => saveRecord()}
                           size="sm"
                         >
                           Salvar
@@ -177,8 +189,7 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>Golden Square Shopping</option>
-                                <option>Wall Street Business</option>
+                                <option>Estacionamento</option>
                               </Input>
                             </FormGroup>
                           </Col>
@@ -199,7 +210,7 @@ const Profile = () => {
                         <Button
                           color="primary"
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          onClick={(e) => saveRecord()}
                           size="sm"
                         >
                           Salvar
@@ -256,8 +267,8 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>A23 - Golden Square Shopping</option>
-                                <option>A21 - Wall Street Business</option>
+                                <option>-</option>
+                                <option>A</option>
                               </Input>
                             </FormGroup>
                           </Col>
@@ -278,7 +289,7 @@ const Profile = () => {
                         <Button
                           color="primary"
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          onClick={(e) => saveRecord()}
                           size="sm"
                         >
                           Salvar
@@ -335,8 +346,7 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>Golden Square Shopping</option>
-                                <option>Wall Street Business</option>
+                                <option>Estacionamento</option>
                               </Input>
                             </FormGroup>
                           </Col>
@@ -353,8 +363,7 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>A23</option>
-                                <option>A21</option>
+                                <option>A</option>
                               </Input>
                             </FormGroup>
                           </Col>
