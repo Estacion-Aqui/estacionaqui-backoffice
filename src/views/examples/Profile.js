@@ -94,7 +94,7 @@ const Profile = () => {
                 </Row>
                 <div className="text-center">
                   <h3>
-                    Golden Square Shopping
+                    Estacionamento
                     <span className="font-weight-light"></span>
                   </h3>
                   <div className="h5 font-weight-300">
@@ -107,13 +107,12 @@ const Profile = () => {
                   </div>
                   <div>
                     <i className="ni education_hat mr-2" />
-                    Av. Kennedy, 700 - Jardim do Mar, São Bernardo do Campo -
-                    SP, 09726-253
+                    R. Sírius, 370 - Jardim Antares, São Bernardo do Campo - SP,
+                    09726-253
                   </div>
                   <hr className="my-4" />
                   <p>
-                    Shopping espaçoso com lojas e restaurantes, além de cinemas,
-                    pista de kart e outras atividades de lazer.
+                    Estacionamento utilizado para desenvolvimentos sistemicos.
                   </p>
                 </div>
               </CardBody>
