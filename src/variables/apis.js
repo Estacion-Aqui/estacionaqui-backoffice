@@ -15,24 +15,23 @@ export async function getHistoryData(object, ids) {
     
 }
 export async function getAllStaticData() {
-    var returnData = [{
-      returnNumber: {
-        number: 0,
-        percent: 0,
-        direction: true
-      },
-    }];
-    return returnData;
+    const responseEstab = await fetch(
+      "https://estacion-aqui.herokuapp.com/api/v1/spots/place/ff05c862-5048-4413-ab69-1fb8eb81ea9e"
+    );
+    let data = await responseEstab.json();
+    var freeSpotsNumber = 0;
+    var spotsNumber = 0;
+
+    data.forEach(function(item){
+      if(item.status)
+        spotsNumber = spotsNumber+1;
+      else 
+        freeSpotsNumber = freeSpotsNumber + 1;
+    }, {freeSpotsNumber, spotsNumber});
+
+    return { spots: spotsNumber, freeSpots: freeSpotsNumber };
 }
 export async function getAllData(){
-    var tableCardData = {
-      estab : [],
-      area: [],
-      sector: [],
-      spot : []
-    }
-    return tableCardData;
-
     var estabmap = {};
     const responseEstab = await fetch("https://estacion-aqui.herokuapp.com/api/v1/places");
     let data = await responseEstab.json();

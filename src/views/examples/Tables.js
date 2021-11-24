@@ -58,7 +58,7 @@ const Tables = () => {
                     <th scope="col" />
                   </tr>
                 </thead>
-                {/* <tbody>
+                <tbody>
                   {result == null ? (
                     <> </>
                   ) : (
@@ -157,8 +157,8 @@ const Tables = () => {
                       </tr>
                     ))
                   )}
-                </tbody> */}
-                <tbody>
+                </tbody>
+                {/* <tbody>
                   <tr>
                     <th scope="row">
                       <Media className="align-items-center">
@@ -303,7 +303,7 @@ const Tables = () => {
                       </UncontrolledDropdown>
                     </td>
                   </tr>
-                </tbody>
+                </tbody> */}
               </Table>
             </Card>
           </div>
@@ -329,7 +329,7 @@ const Tables = () => {
                     <th scope="col" />
                   </tr>
                 </thead>
-                {/* <tbody>
+                <tbody>
                   {result == null ? (
                     <> </>
                   ) : (
@@ -394,8 +394,8 @@ const Tables = () => {
                       </tr>
                     ))
                   )}
-                </tbody> */}
-                <tbody>
+                </tbody>
+                {/* <tbody>
                   <tr>
                     <th scope="row">
                       <Media className="align-items-center">
@@ -500,7 +500,7 @@ const Tables = () => {
                       </UncontrolledDropdown>
                     </td>
                   </tr>
-                </tbody>
+                </tbody> */}
               </Table>
             </Card>
           </div>
@@ -523,7 +523,7 @@ const Tables = () => {
                     <th scope="col" />
                   </tr>
                 </thead>
-                {/* <tbody>
+                <tbody>
                   {result == null ? (
                     <> </>
                   ) : (
@@ -590,8 +590,8 @@ const Tables = () => {
                       </tr>
                     ))
                   )}
-                </tbody> */}
-                <tbody>
+                </tbody>
+                {/* <tbody>
                   <tr>
                     <th scope="row">
                       <Media className="align-items-center">
@@ -696,7 +696,7 @@ const Tables = () => {
                       </UncontrolledDropdown>
                     </td>
                   </tr>
-                </tbody>
+                </tbody> */}
               </Table>
             </Card>
           </div>
@@ -722,7 +722,7 @@ const Tables = () => {
                     <th scope="col" />
                   </tr>
                 </thead>
-                {/* <tbody>
+                <tbody>
                   {result == null ? (
                     <> </>
                   ) : (
@@ -781,699 +781,699 @@ const Tables = () => {
                       </tr>
                     ))
                   )}
-                </tbody> */}
-                <tbody>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">01</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A23-1</td>
-                    <td>Area Coberta - A23</td>
-                    <td>Golden Square Shopping</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-danger" />
-                        Ocupado
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">02</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A23-1</td>
-                    <td>Area Coberta - A23</td>
-                    <td>Golden Square Shopping</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">03</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A23-1</td>
-                    <td>Area Coberta - A23</td>
-                    <td>Golden Square Shopping</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-danger" />
-                        Ocupado
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">04</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A23-1</td>
-                    <td>Area Coberta - A23</td>
-                    <td>Golden Square Shopping</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-danger" />
-                        Ocupado
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">05</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A23-1</td>
-                    <td>Area Coberta - A23</td>
-                    <td>Golden Square Shopping</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">01</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-danger" />
-                        Ocupado
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">02</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">03</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">04</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">05</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">01</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">02</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">03</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">04</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <Media className="align-items-center">
-                        <Media>
-                          <span className="mb-0 text-sm">05</span>
-                        </Media>
-                      </Media>
-                    </th>
-                    <td>Setor A1-1</td>
-                    <td>Area Piso 1</td>
-                    <td>Wall Street Business</td>
-                    <td>
-                      <Badge color="" className="badge-dot mr-4">
-                        <i className="bg-success" />
-                        Livre
-                      </Badge>
-                    </td>
-                    <td className="text-right">
-                      <UncontrolledDropdown>
-                        <DropdownToggle
-                          className="btn-icon-only text-light"
-                          href="#pablo"
-                          role="button"
-                          size="sm"
-                          color=""
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fas fa-ellipsis-v" />
-                        </DropdownToggle>
-                        <DropdownMenu className="dropdown-menu-arrow" right>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Editar
-                          </DropdownItem>
-                          <DropdownItem
-                            href="#pablo"
-                            onClick={(e) => deleteObject(e, "spots", "1")}
-                          >
-                            Excluir
-                          </DropdownItem>
-                        </DropdownMenu>
-                      </UncontrolledDropdown>
-                    </td>
-                  </tr>
                 </tbody>
+                {/* <tbody>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">01</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A23-1</td>
+                    <td>Area Coberta - A23</td>
+                    <td>Golden Square Shopping</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-danger" />
+                        Ocupado
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">02</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A23-1</td>
+                    <td>Area Coberta - A23</td>
+                    <td>Golden Square Shopping</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">03</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A23-1</td>
+                    <td>Area Coberta - A23</td>
+                    <td>Golden Square Shopping</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-danger" />
+                        Ocupado
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">04</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A23-1</td>
+                    <td>Area Coberta - A23</td>
+                    <td>Golden Square Shopping</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-danger" />
+                        Ocupado
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">05</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A23-1</td>
+                    <td>Area Coberta - A23</td>
+                    <td>Golden Square Shopping</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">01</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-danger" />
+                        Ocupado
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">02</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">03</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">04</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">05</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">01</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">02</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">03</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">04</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <Media className="align-items-center">
+                        <Media>
+                          <span className="mb-0 text-sm">05</span>
+                        </Media>
+                      </Media>
+                    </th>
+                    <td>Setor A1-1</td>
+                    <td>Area Piso 1</td>
+                    <td>Wall Street Business</td>
+                    <td>
+                      <Badge color="" className="badge-dot mr-4">
+                        <i className="bg-success" />
+                        Livre
+                      </Badge>
+                    </td>
+                    <td className="text-right">
+                      <UncontrolledDropdown>
+                        <DropdownToggle
+                          className="btn-icon-only text-light"
+                          href="#pablo"
+                          role="button"
+                          size="sm"
+                          color=""
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fas fa-ellipsis-v" />
+                        </DropdownToggle>
+                        <DropdownMenu className="dropdown-menu-arrow" right>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Editar
+                          </DropdownItem>
+                          <DropdownItem
+                            href="#pablo"
+                            onClick={(e) => deleteObject(e, "spots", "1")}
+                          >
+                            Excluir
+                          </DropdownItem>
+                        </DropdownMenu>
+                      </UncontrolledDropdown>
+                    </td>
+                  </tr>
+                </tbody> */}
               </Table>
             </Card>
           </div>

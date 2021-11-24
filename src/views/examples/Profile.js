@@ -69,7 +69,7 @@ const Profile = () => {
                       </Button>
                       <div>
                         <span className="heading">2</span>
-                        <span className="description">Areas</span>
+                        <span className="description">Áreas</span>
                       </div>
                       <div>
                         <span className="heading">2</span>
@@ -94,7 +94,7 @@ const Profile = () => {
                 </Row>
                 <div className="text-center">
                   <h3>
-                    Estacionamento
+                    Estabelecimento
                     <span className="font-weight-light"></span>
                   </h3>
                   <div className="h5 font-weight-300">
@@ -103,7 +103,7 @@ const Profile = () => {
                   </div>
                   <div className="h5 mt-4">
                     <i className="ni business_briefcase-24 mr-2" />
-                    Modular Company - EstacionAqui!
+                    Estabelecimento
                   </div>
                   <div>
                     <i className="ni education_hat mr-2" />
@@ -112,7 +112,7 @@ const Profile = () => {
                   </div>
                   <hr className="my-4" />
                   <p>
-                    Estacionamento utilizado para desenvolvimentos sistemicos.
+                    Estabelecimento utilizado para desenvolvimentos sistemicos.
                   </p>
                 </div>
               </CardBody>
@@ -125,7 +125,7 @@ const Profile = () => {
                   <CardHeader className="bg-white border-0">
                     <Row className="align-items-center">
                       <Col xs="8">
-                        <h3 className="mb-0">Cadastrar Area</h3>
+                        <h3 className="mb-0">Cadastrar Área</h3>
                       </Col>
                       <Col className="text-right" xs="4">
                         <Button
@@ -149,12 +149,12 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-first-name"
                               >
-                                Titulo
+                                Título
                               </label>
                               <Input
                                 className="form-control-alternative"
                                 id="input-first-name"
-                                placeholder="Area demarcada"
+                                placeholder="Área demarcada"
                                 type="text"
                               />
                             </FormGroup>
@@ -165,12 +165,12 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-last-name"
                               >
-                                Codigo do Local
+                                Código do Local
                               </label>
                               <Input
                                 className="form-control-alternative"
                                 id="input-last-name"
-                                placeholder="Codigo"
+                                placeholder="Código"
                                 type="text"
                               />
                             </FormGroup>
@@ -188,7 +188,7 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>Estacionamento</option>
+                                <option>Estabelecimento</option>
                               </Input>
                             </FormGroup>
                           </Col>
@@ -227,7 +227,7 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-first-name"
                               >
-                                Titulo
+                                Título
                               </label>
                               <Input
                                 className="form-control-alternative"
@@ -243,12 +243,12 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-last-name"
                               >
-                                Codigo do Local
+                                Código do Local
                               </label>
                               <Input
                                 className="form-control-alternative"
                                 id="input-last-name"
-                                placeholder="Codigo"
+                                placeholder="Código"
                                 type="text"
                               />
                             </FormGroup>
@@ -259,7 +259,7 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-last-name"
                               >
-                                Area
+                                Área
                               </label>
                               <Input
                                 id="exampleSelect"
@@ -306,7 +306,7 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-first-name"
                               >
-                                Numero da Vaga
+                                Número da Vaga
                               </label>
                               <Input
                                 className="form-control-alternative"
@@ -322,7 +322,7 @@ const Profile = () => {
                                 className="form-control-label"
                                 htmlFor="input-first-name"
                               >
-                                Numero do Sensor
+                                Número do Sensor
                               </label>
                               <Input
                                 className="form-control-alternative"
@@ -345,7 +345,7 @@ const Profile = () => {
                                 name="status"
                                 type="select"
                               >
-                                <option>Estacionamento</option>
+                                <option>Estabelecimento</option>
                               </Input>
                             </FormGroup>
                           </Col>

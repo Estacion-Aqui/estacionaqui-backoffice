@@ -321,7 +321,7 @@ let chartExample1 = {
             content += label;
           }
 
-          content += "$" + yLabel + "k";
+          content += "" + yLabel + "";
           return content;
         },
       },
@@ -359,7 +359,7 @@ let chartExample2 = {
         {
           ticks: {
             callback: function (value) {
-              if (!(value % 10)) {
+              if (!(value % 1)) {
                 //return '$' + value + 'k'
                 return value;
               }
@@ -384,11 +384,11 @@ let chartExample2 = {
     },
   },
   data: {
-    labels: ["Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro"],
+    labels: ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00"],
     datasets: [
       {
         label: "Sales",
-        data: [10, 20, 5, 25, 10, 30, 15, 40, 40],
+        data: [0, 2, 3, 0, 0, 0, 1, 2, 0],
         maxBarThickness: 10,
       },
     ],
