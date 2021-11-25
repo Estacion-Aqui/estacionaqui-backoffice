@@ -136,13 +136,7 @@ const Tables = () => {
                             >
                               <i className="fas fa-ellipsis-v" />
                             </DropdownToggle>
-                            <DropdownMenu className="dropdown-menu-arrow" right>
-                              <DropdownItem
-                                href="#pablo"
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                Editar
-                              </DropdownItem>
+                            <DropdownMenu className="dropdown-menu-arrow" right> 
                               <DropdownItem
                                 href="#pablo"
                                 onClick={(e) =>
@@ -373,13 +367,7 @@ const Tables = () => {
                             >
                               <i className="fas fa-ellipsis-v" />
                             </DropdownToggle>
-                            <DropdownMenu className="dropdown-menu-arrow" right>
-                              <DropdownItem
-                                href="#pablo"
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                Editar
-                              </DropdownItem>
+                            <DropdownMenu className="dropdown-menu-arrow" right> 
                               <DropdownItem
                                 href="#pablo"
                                 onClick={(e) =>
@@ -569,13 +557,7 @@ const Tables = () => {
                             >
                               <i className="fas fa-ellipsis-v" />
                             </DropdownToggle>
-                            <DropdownMenu className="dropdown-menu-arrow" right>
-                              <DropdownItem
-                                href="#pablo"
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                Editar
-                              </DropdownItem>
+                            <DropdownMenu className="dropdown-menu-arrow" right> 
                               <DropdownItem
                                 href="#pablo"
                                 onClick={(e) =>
@@ -760,13 +742,7 @@ const Tables = () => {
                             >
                               <i className="fas fa-ellipsis-v" />
                             </DropdownToggle>
-                            <DropdownMenu className="dropdown-menu-arrow" right>
-                              <DropdownItem
-                                href="#pablo"
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                Editar
-                              </DropdownItem>
+                            <DropdownMenu className="dropdown-menu-arrow" right> 
                               <DropdownItem
                                 href="#pablo"
                                 onClick={(e) =>

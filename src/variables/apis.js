@@ -31,6 +31,48 @@ export async function getAllStaticData() {
 
     return { spots: spotsNumber, freeSpots: freeSpotsNumber };
 }
+export async function insertDataArea(areas){
+  areas.place = "ff05c862-5048-4413-ab69-1fb8eb81ea9e";
+  const requestOptions = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(areas),
+  };
+  console.log(JSON.stringify(areas));
+  const responseEstab = await fetch(
+    "https://estacion-aqui.herokuapp.com/api/v1/areas",
+    requestOptions
+  ).then((response) => response.json()).then((data) => console.log(data));
+}
+
+export async function insertDataSector(areas) {
+  const requestOptions = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(areas),
+  };
+  console.log(JSON.stringify(areas));
+  const responseEstab = await fetch(
+    "https://estacion-aqui.herokuapp.com/api/v1/sectors",
+    requestOptions
+  )
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
+export async function insertDataSpot(areas) {
+  const requestOptions = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(areas),
+  };
+  console.log(JSON.stringify(areas));
+  const responseEstab = await fetch(
+    "https://estacion-aqui.herokuapp.com/api/v1/spots",
+    requestOptions
+  )
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+}
 export async function getAllData(){
     var estabmap = {};
     const responseEstab = await fetch("https://estacion-aqui.herokuapp.com/api/v1/places");

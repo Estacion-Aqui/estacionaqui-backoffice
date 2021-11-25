@@ -1,20 +1,4 @@
-/*!
-
-=========================================================
-* Argon Dashboard React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
+import { useState, useEffect } from "react";
 
 // reactstrap components
 import {
@@ -33,10 +17,26 @@ import {
 import UserHeader from "components/Headers/UserHeader.js";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import {
+  insertDataArea,
+  getAllData,
+  insertDataSector,
+  insertDataSpot } from "variables/apis.js";
 
 const Profile = () => {
+  const [area, setarea] = useState({});
+  const [sector, setsector] = useState({});
+  const [spot, setspot] = useState({});
   const MySwal = withReactContent(Swal);
-  function saveRecord(){
+  const [result, setResult] = useState({
+    estab: [],
+    area: [],
+    sector: [],
+    spot: [],
+  });
+  async function saveRecord() {
+    await insertDataArea(area);
+    setarea({});
     MySwal.fire({
       icon: "success",
       title: "Sucesso!!",
@@ -44,6 +44,80 @@ const Profile = () => {
     }).then(() => {
       return true;
     });
+    getAllData().then(function (result) {
+      setResult(result);
+    });
+  }
+  async function saveRecordSector() {
+    console.log(sector);
+    await insertDataSector(sector);
+    setsector({});
+    MySwal.fire({
+      icon: "success",
+      title: "Sucesso!!",
+      text: "Registro inserido com sucesso!",
+    }).then(() => {
+      return true;
+    });
+    getAllData().then(function (result) {
+      setResult(result);
+    });
+  }
+  async function saveRecordSpot() {
+    await insertDataSpot(spot);
+    setspot({});
+    MySwal.fire({
+      icon: "success",
+      title: "Sucesso!!",
+      text: "Registro inserido com sucesso!",
+    }).then(() => {
+      return true;
+    });
+    getAllData().then(function (result) {
+      setResult(result);
+    });
+  }
+  useEffect(() => {
+    getAllData().then(function (result) {
+      setResult(result);
+    });
+  });
+
+  function handleChangeTitulo(event){
+    area.name = event.target.value;
+    setarea(area);
+  }
+  function handleChangeLocal(event) {
+    area.code = event.target.value;
+    setarea(area);
+  }
+
+
+  function handleChangeSector(event) {
+    sector.name = event.target.value;
+    setsector(sector);
+  }
+  function handleChangeSectorLocal(event) {
+    sector.code = event.target.value;
+    setsector(sector);
+
+  }
+  function handleChangeAreaLocal(event) {
+    sector.area = event.target.value;
+    setsector(sector);
+
+  }
+
+
+
+  function handleChangeTitleSpot(event) {
+    spot.title = event.target.value;
+  }
+  function handleChangeSpotSector(event) {
+    spot.sector = event.target.value;
+  }
+  function handleChangeSpotSensor(event) {
+    spot.sensorId = event.target.value;
   }
   return (
     <>
@@ -155,6 +229,8 @@ const Profile = () => {
                                 className="form-control-alternative"
                                 id="input-first-name"
                                 placeholder="Área demarcada"
+                                value={area.name}
+                                onChange={handleChangeTitulo}
                                 type="text"
                               />
                             </FormGroup>
@@ -171,6 +247,8 @@ const Profile = () => {
                                 className="form-control-alternative"
                                 id="input-last-name"
                                 placeholder="Código"
+                                value={area.code}
+                                onChange={handleChangeLocal}
                                 type="text"
                               />
                             </FormGroup>
@@ -209,7 +287,7 @@ const Profile = () => {
                         <Button
                           color="primary"
                           href="#pablo"
-                          onClick={(e) => saveRecord()}
+                          onClick={(e) => saveRecordSector()}
                           size="sm"
                         >
                           Salvar
@@ -234,6 +312,7 @@ const Profile = () => {
                                 id="input-first-name"
                                 placeholder="Setor demarcada"
                                 type="text"
+                                onChange={handleChangeSector}
                               />
                             </FormGroup>
                           </Col>
@@ -250,6 +329,7 @@ const Profile = () => {
                                 id="input-last-name"
                                 placeholder="Código"
                                 type="text"
+                                onChange={handleChangeSectorLocal}
                               />
                             </FormGroup>
                           </Col>
@@ -265,9 +345,13 @@ const Profile = () => {
                                 id="exampleSelect"
                                 name="status"
                                 type="select"
+                                onChange={handleChangeAreaLocal}
                               >
-                                <option>-</option>
-                                <option>A</option>
+                                {result.area.map((option) => (
+                                  <option value={option.id}>
+                                    {option.code}
+                                  </option>
+                                ))}
                               </Input>
                             </FormGroup>
                           </Col>
@@ -288,7 +372,7 @@ const Profile = () => {
                         <Button
                           color="primary"
                           href="#pablo"
-                          onClick={(e) => saveRecord()}
+                          onClick={(e) => saveRecordSpot()}
                           size="sm"
                         >
                           Salvar
@@ -313,6 +397,8 @@ const Profile = () => {
                                 id="input-first-name"
                                 placeholder="Vaga"
                                 type="text"
+                                value={spot.title}
+                                onChange={handleChangeTitleSpot}
                               />
                             </FormGroup>
                           </Col>
@@ -329,6 +415,8 @@ const Profile = () => {
                                 id="input-first-name"
                                 placeholder="Sensor da vaga"
                                 type="text"
+                                value={spot.sensorId}
+                                onChange={handleChangeSpotSensor}
                               />
                             </FormGroup>
                           </Col>
@@ -361,8 +449,14 @@ const Profile = () => {
                                 id="exampleSelect"
                                 name="status"
                                 type="select"
+                                value={spot.sector}
+                                onChange={handleChangeSpotSector}
                               >
-                                <option>A</option>
+                                {result.sector.map((option) => (
+                                  <option value={option.id}>
+                                    {option.code}
+                                  </option>
+                                ))}
                               </Input>
                             </FormGroup>
                           </Col>
